@@ -14,73 +14,29 @@ app_port: 7860
 </p>
 
 
-## <h1 align="center" id="heading">:wave: Welcome to Beyond ChatGPT!!</h1>
+## <h1 align="center" id="heading">Welcome to AML Compliance Assistante!!</h1>
 
 For a step-by-step YouTube video walkthrough, watch this! [Deploying Chainlit app on Hugging Face](https://www.youtube.com/live/pRbbZcL0NMI?si=NAYhMZ_suAY84f06&t=2119)
 
-![Beyond ChatGPT: Build Your First LLM Application](https://github.com/AI-Maker-Space/Beyond-ChatGPT/assets/48775140/cb7a74b8-28af-4d12-a008-8f5a51d47b4c)
+![Alt text](Data/aml_compliance_assistant.png "Title")
 
-## 🤖 Your First LLM App
+# Overview:
+
+The AML Compliance Assistant is a tool designed to aid individuals working in the field of Anti-Money Laundering (AML) and Counter-Terrorism Financing (CTF), particularly those navigating the complexities of the Australian AML/CTF Act of 2006.
+
+# Purpose:
+
+
+The primary goal of the AML Compliance Assistant is to support junior lawyers or individuals new to AML by providing a resource that simplifies and clarifies the intricate aspects of AML legislation.
+
+# Key Features:
+
+Educational Tool: The assistant serves as an educational resource, explaining the fundamental concepts of AML and the specifics of Australian legislation.
+Document Navigation: It helps users navigate through complex legislative documents, including amendments and references to other acts.
+Simplification of Legal Language: The tool translates complex legal language into more understandable terms, making it easier for users to comprehend and apply the regulations.
+
 
 > If you need an introduction to `git`, or information on how to set up API keys for the tools we'll be using in this repository - check out our [Interactive Dev Environment for LLM Development](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development/tree/main) which has everything you'd need to get started in this repository!
-
-In this repository, we'll walk you through the steps to create a Large Language Model (LLM) application using Chainlit, then containerize it using Docker, and finally deploy it on Huggingface Spaces.
-
-Are you ready? Let's get started!
-
-<details>
-  <summary>🖥️ Accessing "gpt-3.5-turbo" (ChatGPT) like a developer</summary>
-
-1. Head to [this notebook](https://colab.research.google.com/drive/1mOzbgf4a2SP5qQj33ZxTz2a01-5eXqk2?usp=sharing) and follow along with the instructions!
-
-2. Complete the notebook and try out your own system/assistant messages!
-
-That's it! Head to the next step and start building your application!
-
-</details>
-
-
-<details>
-  <summary>🏗️ Building Your First LLM App</summary>
-
-1. Clone [this](https://github.com/AI-Maker-Space/Beyond-ChatGPT/tree/main) repo.
-
-     ``` bash
-     git clone https://github.com/AI-Maker-Space/Beyond-ChatGPT.git
-     ```
-
-2. Navigate inside this repo
-     ``` bash
-     cd Beyond-ChatGPT
-     ```
-
-3. Install the packages required for this python envirnoment in `requirements.txt`.
-     ``` bash
-     pip install -r requirements.txt
-     ``` 
-
-4. Open your `.env` file. Replace the `###` in your `.env` file with your OpenAI Key and save the file.
-     ``` bash
-     OPENAI_API_KEY=sk-###
-     ```
-
-5. Let's try deploying it locally. Make sure you're in the python environment where you installed Chainlit and OpenAI. Run the app using Chainlit. This may take a minute to run.
-     ``` bash
-     chainlit run app.py -w
-     ```
-
-<p align = "center" draggable=”false”>
-<img src="https://github.com/AI-Maker-Space/LLMOps-Dev-101/assets/37101144/54bcccf9-12e2-4cef-ab53-585c1e2b0fb5"> 
-</p>
-
-Great work! Let's see if we can interact with our chatbot.
-
-<p align = "center" draggable=”false”>
-<img src="https://github.com/AI-Maker-Space/LLMOps-Dev-101/assets/37101144/854e4435-1dee-438a-9146-7174b39f7c61"> 
-</p> 
-
-Awesome! Time to throw it into a docker container and prepare it for shipping!
-</details>
 
 
 
@@ -186,5 +142,3 @@ Who else is diving into the world of AI? Let's connect! 🌐💡
 </details>
 
 <p></p>
-
-### That's it for now!  And so it begins.... :)
